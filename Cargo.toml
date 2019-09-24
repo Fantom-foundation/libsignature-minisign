@@ -1,0 +1,11 @@
+[package]
+name = "libsignature-minisign"
+version = "0.1.0"
+authors = ["Samuel Marks <807580+SamuelMarks@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libcommon-rs = { git = "https://github.com/Fantom-foundation/libcommon-rs" }
+libhash = { git = "https://github.com/Fantom-foundation/libhash" }
